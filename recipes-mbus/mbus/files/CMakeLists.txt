@@ -1,9 +1,7 @@
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
-
-project(libmbus VERSION 0.9.0 DESCRIPTION "RScada MBus library - Optiheat tweak")
+project(libmbus VERSION 0.9.0 DESCRIPTION "RScada MBus library")
 
 include_directories(. mbus)
-
 file(GLOB LIBSOURCES mbus/*.c)
 file(GLOB HEADERS mbus/*.h)
 
