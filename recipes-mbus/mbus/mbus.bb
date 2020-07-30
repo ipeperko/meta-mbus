@@ -9,7 +9,8 @@ SRC_URI = "git://github.com/ipeperko/libmbus;protocol=https \
     "
 SRCREV = "2dc3daaf7080cb77640e6caee3154585b8196a37"
 
-PR = "r0"
+PR = "r1"
+PV = "0.1+git${SRCPV}"
 
 inherit pkgconfig cmake
 
